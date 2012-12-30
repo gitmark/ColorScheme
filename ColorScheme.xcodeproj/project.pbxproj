@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D11EF991690352F0075F10C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D11EF981690352F0075F10C /* AppDelegate.m */; };
+		4D11EF9D169035600075F10C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D11EF9C169035600075F10C /* MessageUI.framework */; };
+		4D37C62E169032B200394F7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D37C62D169032B200394F7E /* UIKit.framework */; };
+		4D37C630169032B200394F7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D37C62F169032B200394F7E /* Foundation.framework */; };
+		4D37C632169032B200394F7E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D37C631169032B200394F7E /* CoreGraphics.framework */; };
+		4D37C638169032B200394F7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D37C636169032B200394F7E /* InfoPlist.strings */; };
+		4D37C63A169032B200394F7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C639169032B200394F7E /* main.m */; };
+		4D37C69D169034C300394F7E /* ColorSchemeLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D37C664169034C300394F7E /* ColorSchemeLogo.png */; };
+		4D37C69E169034C300394F7E /* ColorSchemeSplash320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D37C665169034C300394F7E /* ColorSchemeSplash320x480.png */; };
+		4D37C69F169034C300394F7E /* ColorSchemeSplash640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D37C666169034C300394F7E /* ColorSchemeSplash640x960.png */; };
+		4D37C6A0169034C300394F7E /* ColorSchemeSplash640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D37C667169034C300394F7E /* ColorSchemeSplash640x1136.png */; };
+		4D37C6A1169034C300394F7E /* ColorSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C669169034C300394F7E /* ColorSettingsViewController.m */; };
+		4D37C6A2169034C300394F7E /* ColorSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D37C66A169034C300394F7E /* ColorSettingsViewController.xib */; };
+		4D37C6A3169034C300394F7E /* ColorSettingsViewControllerIPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D37C66B169034C300394F7E /* ColorSettingsViewControllerIPad.xib */; };
+		4D37C6A4169034C300394F7E /* CubicSpline.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C66D169034C300394F7E /* CubicSpline.m */; };
+		4D37C6A5169034C300394F7E /* DemoNumPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C66F169034C300394F7E /* DemoNumPadViewController.m */; };
+		4D37C6A6169034C300394F7E /* DemoNumPadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D37C670169034C300394F7E /* DemoNumPadViewController.xib */; };
+		4D37C6A7169034C300394F7E /* DemoNumPadViewControllerIPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D37C671169034C300394F7E /* DemoNumPadViewControllerIPad.xib */; };
+		4D37C6A8169034C300394F7E /* GlossButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C673169034C300394F7E /* GlossButton.m */; };
+		4D37C6A9169034C300394F7E /* GlossFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C675169034C300394F7E /* GlossFactory.m */; };
+		4D37C6AA169034C300394F7E /* GlossHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C677169034C300394F7E /* GlossHeaderView.m */; };
+		4D37C6AB169034C300394F7E /* GlossLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C679169034C300394F7E /* GlossLabel.m */; };
+		4D37C6AC169034C300394F7E /* GlossNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C67B169034C300394F7E /* GlossNavigationBar.m */; };
+		4D37C6AD169034C300394F7E /* GlossRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C67D169034C300394F7E /* GlossRect.m */; };
+		4D37C6AE169034C300394F7E /* GlossSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C67F169034C300394F7E /* GlossSettingsViewController.m */; };
+		4D37C6AF169034C300394F7E /* GlossSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D37C680169034C300394F7E /* GlossSettingsViewController.xib */; };
+		4D37C6B0169034C300394F7E /* GlossSettingsViewControllerIPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D37C681169034C300394F7E /* GlossSettingsViewControllerIPad.xib */; };
+		4D37C6B1169034C300394F7E /* GlossView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C683169034C300394F7E /* GlossView.m */; };
+		4D37C6B2169034C300394F7E /* GlowRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C685169034C300394F7E /* GlowRect.m */; };
+		4D37C6B3169034C300394F7E /* GradientSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C687169034C300394F7E /* GradientSettingsViewController.m */; };
+		4D37C6B4169034C300394F7E /* GradientSettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D37C688169034C300394F7E /* GradientSettingsViewController.xib */; };
+		4D37C6B5169034C300394F7E /* GradientSettingsViewControllerIPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D37C689169034C300394F7E /* GradientSettingsViewControllerIPad.xib */; };
+		4D37C6B6169034C300394F7E /* GradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C68B169034C300394F7E /* GradientView.m */; };
+		4D37C6BA169034C300394F7E /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C691169034C300394F7E /* MainTableViewController.m */; };
+		4D37C6BB169034C300394F7E /* MainTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D37C692169034C300394F7E /* MainTableViewController.xib */; };
+		4D37C6BC169034C300394F7E /* MainTableViewControllerIPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D37C693169034C300394F7E /* MainTableViewControllerIPad.xib */; };
+		4D37C6BD169034C300394F7E /* RoundedBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C695169034C300394F7E /* RoundedBar.m */; };
+		4D37C6BE169034C300394F7E /* RoundedRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C697169034C300394F7E /* RoundedRect.m */; };
+		4D37C6BF169034C300394F7E /* SmoothGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D37C699169034C300394F7E /* SmoothGradient.m */; };
+		4DE215B11690B3A300CCB093 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D11EFA2169035CB0075F10C /* Default@2x.png */; };
+		4DE215B21690B3AA00CCB093 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D11EFA0169035C30075F10C /* Default-568h@2x.png */; };
+		4DE215B71690B3DD00CCB093 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D11EF9E169035B10075F10C /* Default.png */; };
+		4DE859821690AD85002A807D /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE8597F1690AD83002A807D /* AboutViewController.m */; };
+		4DE859831690AD85002A807D /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE859801690AD84002A807D /* AboutViewController.xib */; };
+		4DE859841690AD85002A807D /* AboutViewControllerIPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE859811690AD84002A807D /* AboutViewControllerIPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D11EF981690352F0075F10C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D11EF9B1690353C0075F10C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D11EF9C169035600075F10C /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		4D11EF9E169035B10075F10C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4D11EFA0169035C30075F10C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4D11EFA2169035CB0075F10C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4D11EFA4169035E90075F10C /* ColorSchemeIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorSchemeIcon57x57.png; sourceTree = "<group>"; };
+		4D11EFA6169035F30075F10C /* ColorSchemeIcon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorSchemeIcon114x114.png; sourceTree = "<group>"; };
+		4D37C629169032B200394F7E /* ColorScheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorScheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D37C62D169032B200394F7E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D37C62F169032B200394F7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D37C631169032B200394F7E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D37C635169032B200394F7E /* ColorScheme-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ColorScheme-Info.plist"; sourceTree = "<group>"; };
+		4D37C637169032B200394F7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D37C639169032B200394F7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D37C63B169032B200394F7E /* ColorScheme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ColorScheme-Prefix.pch"; sourceTree = "<group>"; };
+		4D37C63F169032B200394F7E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4D37C641169032B200394F7E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4D37C643169032B200394F7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4D37C664169034C300394F7E /* ColorSchemeLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorSchemeLogo.png; sourceTree = "<group>"; };
+		4D37C665169034C300394F7E /* ColorSchemeSplash320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorSchemeSplash320x480.png; sourceTree = "<group>"; };
+		4D37C666169034C300394F7E /* ColorSchemeSplash640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorSchemeSplash640x960.png; sourceTree = "<group>"; };
+		4D37C667169034C300394F7E /* ColorSchemeSplash640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorSchemeSplash640x1136.png; sourceTree = "<group>"; };
+		4D37C668169034C300394F7E /* ColorSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSettingsViewController.h; sourceTree = "<group>"; };
+		4D37C669169034C300394F7E /* ColorSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSettingsViewController.m; sourceTree = "<group>"; };
+		4D37C66A169034C300394F7E /* ColorSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorSettingsViewController.xib; sourceTree = "<group>"; };
+		4D37C66B169034C300394F7E /* ColorSettingsViewControllerIPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorSettingsViewControllerIPad.xib; sourceTree = "<group>"; };
+		4D37C66C169034C300394F7E /* CubicSpline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubicSpline.h; sourceTree = "<group>"; };
+		4D37C66D169034C300394F7E /* CubicSpline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubicSpline.m; sourceTree = "<group>"; };
+		4D37C66E169034C300394F7E /* DemoNumPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoNumPadViewController.h; sourceTree = "<group>"; };
+		4D37C66F169034C300394F7E /* DemoNumPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoNumPadViewController.m; sourceTree = "<group>"; };
+		4D37C670169034C300394F7E /* DemoNumPadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoNumPadViewController.xib; sourceTree = "<group>"; };
+		4D37C671169034C300394F7E /* DemoNumPadViewControllerIPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoNumPadViewControllerIPad.xib; sourceTree = "<group>"; };
+		4D37C672169034C300394F7E /* GlossButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlossButton.h; sourceTree = "<group>"; };
+		4D37C673169034C300394F7E /* GlossButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlossButton.m; sourceTree = "<group>"; };
+		4D37C674169034C300394F7E /* GlossFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlossFactory.h; sourceTree = "<group>"; };
+		4D37C675169034C300394F7E /* GlossFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlossFactory.m; sourceTree = "<group>"; };
+		4D37C676169034C300394F7E /* GlossHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlossHeaderView.h; sourceTree = "<group>"; };
+		4D37C677169034C300394F7E /* GlossHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlossHeaderView.m; sourceTree = "<group>"; };
+		4D37C678169034C300394F7E /* GlossLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlossLabel.h; sourceTree = "<group>"; };
+		4D37C679169034C300394F7E /* GlossLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlossLabel.m; sourceTree = "<group>"; };
+		4D37C67A169034C300394F7E /* GlossNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlossNavigationBar.h; sourceTree = "<group>"; };
+		4D37C67B169034C300394F7E /* GlossNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlossNavigationBar.m; sourceTree = "<group>"; };
+		4D37C67C169034C300394F7E /* GlossRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlossRect.h; sourceTree = "<group>"; };
+		4D37C67D169034C300394F7E /* GlossRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlossRect.m; sourceTree = "<group>"; };
+		4D37C67E169034C300394F7E /* GlossSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlossSettingsViewController.h; sourceTree = "<group>"; };
+		4D37C67F169034C300394F7E /* GlossSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlossSettingsViewController.m; sourceTree = "<group>"; };
+		4D37C680169034C300394F7E /* GlossSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GlossSettingsViewController.xib; sourceTree = "<group>"; };
+		4D37C681169034C300394F7E /* GlossSettingsViewControllerIPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GlossSettingsViewControllerIPad.xib; sourceTree = "<group>"; };
+		4D37C682169034C300394F7E /* GlossView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlossView.h; sourceTree = "<group>"; };
+		4D37C683169034C300394F7E /* GlossView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlossView.m; sourceTree = "<group>"; };
+		4D37C684169034C300394F7E /* GlowRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlowRect.h; sourceTree = "<group>"; };
+		4D37C685169034C300394F7E /* GlowRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlowRect.m; sourceTree = "<group>"; };
+		4D37C686169034C300394F7E /* GradientSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientSettingsViewController.h; sourceTree = "<group>"; };
+		4D37C687169034C300394F7E /* GradientSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientSettingsViewController.m; sourceTree = "<group>"; };
+		4D37C688169034C300394F7E /* GradientSettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GradientSettingsViewController.xib; sourceTree = "<group>"; };
+		4D37C689169034C300394F7E /* GradientSettingsViewControllerIPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GradientSettingsViewControllerIPad.xib; sourceTree = "<group>"; };
+		4D37C68A169034C300394F7E /* GradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientView.h; sourceTree = "<group>"; };
+		4D37C68B169034C300394F7E /* GradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientView.m; sourceTree = "<group>"; };
+		4D37C690169034C300394F7E /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewController.h; sourceTree = "<group>"; };
+		4D37C691169034C300394F7E /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewController.m; sourceTree = "<group>"; };
+		4D37C692169034C300394F7E /* MainTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewController.xib; sourceTree = "<group>"; };
+		4D37C693169034C300394F7E /* MainTableViewControllerIPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewControllerIPad.xib; sourceTree = "<group>"; };
+		4D37C694169034C300394F7E /* RoundedBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedBar.h; sourceTree = "<group>"; };
+		4D37C695169034C300394F7E /* RoundedBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedBar.m; sourceTree = "<group>"; };
+		4D37C696169034C300394F7E /* RoundedRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundedRect.h; sourceTree = "<group>"; };
+		4D37C697169034C300394F7E /* RoundedRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundedRect.m; sourceTree = "<group>"; };
+		4D37C698169034C300394F7E /* SmoothGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothGradient.h; sourceTree = "<group>"; };
+		4D37C699169034C300394F7E /* SmoothGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothGradient.m; sourceTree = "<group>"; };
+		4DE8597E1690AD83002A807D /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		4DE8597F1690AD83002A807D /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		4DE859801690AD84002A807D /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		4DE859811690AD84002A807D /* AboutViewControllerIPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewControllerIPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D37C626169032B200394F7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D11EF9D169035600075F10C /* MessageUI.framework in Frameworks */,
+				4D37C62E169032B200394F7E /* UIKit.framework in Frameworks */,
+				4D37C630169032B200394F7E /* Foundation.framework in Frameworks */,
+				4D37C632169032B200394F7E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D37C61E169032B200394F7E = {
+			isa = PBXGroup;
+			children = (
+				4D11EFA6169035F30075F10C /* ColorSchemeIcon114x114.png */,
+				4D11EFA4169035E90075F10C /* ColorSchemeIcon57x57.png */,
+				4D11EFA2169035CB0075F10C /* Default@2x.png */,
+				4D11EFA0169035C30075F10C /* Default-568h@2x.png */,
+				4D11EF9E169035B10075F10C /* Default.png */,
+				4D11EF9C169035600075F10C /* MessageUI.framework */,
+				4D37C633169032B200394F7E /* ColorScheme */,
+				4D37C62C169032B200394F7E /* Frameworks */,
+				4D37C62A169032B200394F7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D37C62A169032B200394F7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D37C629169032B200394F7E /* ColorScheme.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D37C62C169032B200394F7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D37C62D169032B200394F7E /* UIKit.framework */,
+				4D37C62F169032B200394F7E /* Foundation.framework */,
+				4D37C631169032B200394F7E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D37C633169032B200394F7E /* ColorScheme */ = {
+			isa = PBXGroup;
+			children = (
+				4DE8597E1690AD83002A807D /* AboutViewController.h */,
+				4DE8597F1690AD83002A807D /* AboutViewController.m */,
+				4DE859801690AD84002A807D /* AboutViewController.xib */,
+				4DE859811690AD84002A807D /* AboutViewControllerIPad.xib */,
+				4D11EF9B1690353C0075F10C /* AppDelegate.h */,
+				4D11EF981690352F0075F10C /* AppDelegate.m */,
+				4D37C664169034C300394F7E /* ColorSchemeLogo.png */,
+				4D37C665169034C300394F7E /* ColorSchemeSplash320x480.png */,
+				4D37C666169034C300394F7E /* ColorSchemeSplash640x960.png */,
+				4D37C667169034C300394F7E /* ColorSchemeSplash640x1136.png */,
+				4D37C668169034C300394F7E /* ColorSettingsViewController.h */,
+				4D37C669169034C300394F7E /* ColorSettingsViewController.m */,
+				4D37C66A169034C300394F7E /* ColorSettingsViewController.xib */,
+				4D37C66B169034C300394F7E /* ColorSettingsViewControllerIPad.xib */,
+				4D37C66C169034C300394F7E /* CubicSpline.h */,
+				4D37C66D169034C300394F7E /* CubicSpline.m */,
+				4D37C66E169034C300394F7E /* DemoNumPadViewController.h */,
+				4D37C66F169034C300394F7E /* DemoNumPadViewController.m */,
+				4D37C670169034C300394F7E /* DemoNumPadViewController.xib */,
+				4D37C671169034C300394F7E /* DemoNumPadViewControllerIPad.xib */,
+				4D37C672169034C300394F7E /* GlossButton.h */,
+				4D37C673169034C300394F7E /* GlossButton.m */,
+				4D37C674169034C300394F7E /* GlossFactory.h */,
+				4D37C675169034C300394F7E /* GlossFactory.m */,
+				4D37C676169034C300394F7E /* GlossHeaderView.h */,
+				4D37C677169034C300394F7E /* GlossHeaderView.m */,
+				4D37C678169034C300394F7E /* GlossLabel.h */,
+				4D37C679169034C300394F7E /* GlossLabel.m */,
+				4D37C67A169034C300394F7E /* GlossNavigationBar.h */,
+				4D37C67B169034C300394F7E /* GlossNavigationBar.m */,
+				4D37C67C169034C300394F7E /* GlossRect.h */,
+				4D37C67D169034C300394F7E /* GlossRect.m */,
+				4D37C67E169034C300394F7E /* GlossSettingsViewController.h */,
+				4D37C67F169034C300394F7E /* GlossSettingsViewController.m */,
+				4D37C680169034C300394F7E /* GlossSettingsViewController.xib */,
+				4D37C681169034C300394F7E /* GlossSettingsViewControllerIPad.xib */,
+				4D37C682169034C300394F7E /* GlossView.h */,
+				4D37C683169034C300394F7E /* GlossView.m */,
+				4D37C684169034C300394F7E /* GlowRect.h */,
+				4D37C685169034C300394F7E /* GlowRect.m */,
+				4D37C686169034C300394F7E /* GradientSettingsViewController.h */,
+				4D37C687169034C300394F7E /* GradientSettingsViewController.m */,
+				4D37C688169034C300394F7E /* GradientSettingsViewController.xib */,
+				4D37C689169034C300394F7E /* GradientSettingsViewControllerIPad.xib */,
+				4D37C68A169034C300394F7E /* GradientView.h */,
+				4D37C68B169034C300394F7E /* GradientView.m */,
+				4D37C690169034C300394F7E /* MainTableViewController.h */,
+				4D37C691169034C300394F7E /* MainTableViewController.m */,
+				4D37C692169034C300394F7E /* MainTableViewController.xib */,
+				4D37C693169034C300394F7E /* MainTableViewControllerIPad.xib */,
+				4D37C694169034C300394F7E /* RoundedBar.h */,
+				4D37C695169034C300394F7E /* RoundedBar.m */,
+				4D37C696169034C300394F7E /* RoundedRect.h */,
+				4D37C697169034C300394F7E /* RoundedRect.m */,
+				4D37C698169034C300394F7E /* SmoothGradient.h */,
+				4D37C699169034C300394F7E /* SmoothGradient.m */,
+				4D37C634169032B200394F7E /* Supporting Files */,
+			);
+			path = ColorScheme;
+			sourceTree = "<group>";
+		};
+		4D37C634169032B200394F7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D37C635169032B200394F7E /* ColorScheme-Info.plist */,
+				4D37C636169032B200394F7E /* InfoPlist.strings */,
+				4D37C639169032B200394F7E /* main.m */,
+				4D37C63B169032B200394F7E /* ColorScheme-Prefix.pch */,
+				4D37C63F169032B200394F7E /* Default.png */,
+				4D37C641169032B200394F7E /* Default@2x.png */,
+				4D37C643169032B200394F7E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D37C628169032B200394F7E /* ColorScheme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D37C659169032B200394F7E /* Build configuration list for PBXNativeTarget "ColorScheme" */;
+			buildPhases = (
+				4D37C625169032B200394F7E /* Sources */,
+				4D37C626169032B200394F7E /* Frameworks */,
+				4D37C627169032B200394F7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColorScheme;
+			productName = ColorScheme;
+			productReference = 4D37C629169032B200394F7E /* ColorScheme.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D37C620169032B200394F7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Mark Elrod";
+			};
+			buildConfigurationList = 4D37C623169032B200394F7E /* Build configuration list for PBXProject "ColorScheme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D37C61E169032B200394F7E;
+			productRefGroup = 4D37C62A169032B200394F7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D37C628169032B200394F7E /* ColorScheme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D37C627169032B200394F7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D37C638169032B200394F7E /* InfoPlist.strings in Resources */,
+				4D37C69D169034C300394F7E /* ColorSchemeLogo.png in Resources */,
+				4D37C69E169034C300394F7E /* ColorSchemeSplash320x480.png in Resources */,
+				4D37C69F169034C300394F7E /* ColorSchemeSplash640x960.png in Resources */,
+				4D37C6A0169034C300394F7E /* ColorSchemeSplash640x1136.png in Resources */,
+				4D37C6A2169034C300394F7E /* ColorSettingsViewController.xib in Resources */,
+				4D37C6A3169034C300394F7E /* ColorSettingsViewControllerIPad.xib in Resources */,
+				4D37C6A6169034C300394F7E /* DemoNumPadViewController.xib in Resources */,
+				4D37C6A7169034C300394F7E /* DemoNumPadViewControllerIPad.xib in Resources */,
+				4D37C6AF169034C300394F7E /* GlossSettingsViewController.xib in Resources */,
+				4D37C6B0169034C300394F7E /* GlossSettingsViewControllerIPad.xib in Resources */,
+				4D37C6B4169034C300394F7E /* GradientSettingsViewController.xib in Resources */,
+				4D37C6B5169034C300394F7E /* GradientSettingsViewControllerIPad.xib in Resources */,
+				4D37C6BB169034C300394F7E /* MainTableViewController.xib in Resources */,
+				4D37C6BC169034C300394F7E /* MainTableViewControllerIPad.xib in Resources */,
+				4DE859831690AD85002A807D /* AboutViewController.xib in Resources */,
+				4DE859841690AD85002A807D /* AboutViewControllerIPad.xib in Resources */,
+				4DE215B11690B3A300CCB093 /* Default@2x.png in Resources */,
+				4DE215B21690B3AA00CCB093 /* Default-568h@2x.png in Resources */,
+				4DE215B71690B3DD00CCB093 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D37C625169032B200394F7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D37C63A169032B200394F7E /* main.m in Sources */,
+				4D37C6A1169034C300394F7E /* ColorSettingsViewController.m in Sources */,
+				4D37C6A4169034C300394F7E /* CubicSpline.m in Sources */,
+				4D37C6A5169034C300394F7E /* DemoNumPadViewController.m in Sources */,
+				4D37C6A8169034C300394F7E /* GlossButton.m in Sources */,
+				4D37C6A9169034C300394F7E /* GlossFactory.m in Sources */,
+				4D37C6AA169034C300394F7E /* GlossHeaderView.m in Sources */,
+				4D37C6AB169034C300394F7E /* GlossLabel.m in Sources */,
+				4D37C6AC169034C300394F7E /* GlossNavigationBar.m in Sources */,
+				4D37C6AD169034C300394F7E /* GlossRect.m in Sources */,
+				4D37C6AE169034C300394F7E /* GlossSettingsViewController.m in Sources */,
+				4D37C6B1169034C300394F7E /* GlossView.m in Sources */,
+				4D37C6B2169034C300394F7E /* GlowRect.m in Sources */,
+				4D37C6B3169034C300394F7E /* GradientSettingsViewController.m in Sources */,
+				4D37C6B6169034C300394F7E /* GradientView.m in Sources */,
+				4D37C6BA169034C300394F7E /* MainTableViewController.m in Sources */,
+				4D37C6BD169034C300394F7E /* RoundedBar.m in Sources */,
+				4D37C6BE169034C300394F7E /* RoundedRect.m in Sources */,
+				4D37C6BF169034C300394F7E /* SmoothGradient.m in Sources */,
+				4D11EF991690352F0075F10C /* AppDelegate.m in Sources */,
+				4DE859821690AD85002A807D /* AboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D37C636169032B200394F7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D37C637169032B200394F7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D37C657169032B200394F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D37C658169032B200394F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D37C65A169032B200394F7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorScheme/ColorScheme-Prefix.pch";
+				INFOPLIST_FILE = "ColorScheme/ColorScheme-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D37C65B169032B200394F7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ColorScheme/ColorScheme-Prefix.pch";
+				INFOPLIST_FILE = "ColorScheme/ColorScheme-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D37C623169032B200394F7E /* Build configuration list for PBXProject "ColorScheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D37C657169032B200394F7E /* Debug */,
+				4D37C658169032B200394F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D37C659169032B200394F7E /* Build configuration list for PBXNativeTarget "ColorScheme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D37C65A169032B200394F7E /* Debug */,
+				4D37C65B169032B200394F7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D37C620169032B200394F7E /* Project object */;
+}
