@@ -16,11 +16,13 @@
 			<array>
 				<string>ColorSchemeIcon57x57.png</string>
 				<string>ColorSchemeIcon114x114.png</string>
+				<string>ColorSchemeIcon72x72.png</string>
+				<string>ColorSchemeIcon144x144.png</string>
 			</array>
 		</dict>
 	</dict>
 	<key>CFBundleIdentifier</key>
-	<string>northwell.${PRODUCT_NAME:rfc1034identifier}</string>
+	<string>com.northwell.${PRODUCT_NAME:rfc1034identifier}</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -52,8 +54,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>

@@ -515,10 +515,10 @@ heightForHeaderInSection:(NSInteger)section {
             {
                 newView = true;
                 if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-                    aboutViewController = [[AboutViewController alloc] initWithNibName:@"HelpViewController" bundle:nil];
+                    aboutViewController = [[AboutViewController alloc] initWithNibName:@"AboutViewController" bundle:nil];
                 }
                 else {
-                    aboutViewController = [[AboutViewController alloc] initWithNibName:@"HelpViewControllerIPad" bundle:nil];
+                    aboutViewController = [[AboutViewController alloc] initWithNibName:@"AboutViewControllerIPad" bundle:nil];
                 }
             }
 

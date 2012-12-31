@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		4D11EF991690352F0075F10C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D11EF981690352F0075F10C /* AppDelegate.m */; };
 		4D11EF9D169035600075F10C /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D11EF9C169035600075F10C /* MessageUI.framework */; };
+		4D1C6AE216910BCE00808B57 /* ColorSchemeIcon57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D11EFA4169035E90075F10C /* ColorSchemeIcon57x57.png */; };
+		4D1C6AE316910BD300808B57 /* ColorSchemeIcon114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D11EFA6169035F30075F10C /* ColorSchemeIcon114x114.png */; };
+		4D1C6AE51691169E00808B57 /* ColorSchemeIcon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1C6AE41691169E00808B57 /* ColorSchemeIcon72x72.png */; };
+		4D1C6AE71691186400808B57 /* ColorSchemeIcon144x144.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1C6AE61691186400808B57 /* ColorSchemeIcon144x144.png */; };
 		4D37C62E169032B200394F7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D37C62D169032B200394F7E /* UIKit.framework */; };
 		4D37C630169032B200394F7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D37C62F169032B200394F7E /* Foundation.framework */; };
 		4D37C632169032B200394F7E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D37C631169032B200394F7E /* CoreGraphics.framework */; };
@@ -63,6 +67,8 @@
 		4D11EFA2169035CB0075F10C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4D11EFA4169035E90075F10C /* ColorSchemeIcon57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorSchemeIcon57x57.png; sourceTree = "<group>"; };
 		4D11EFA6169035F30075F10C /* ColorSchemeIcon114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorSchemeIcon114x114.png; sourceTree = "<group>"; };
+		4D1C6AE41691169E00808B57 /* ColorSchemeIcon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorSchemeIcon72x72.png; sourceTree = "<group>"; };
+		4D1C6AE61691186400808B57 /* ColorSchemeIcon144x144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ColorSchemeIcon144x144.png; sourceTree = "<group>"; };
 		4D37C629169032B200394F7E /* ColorScheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorScheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D37C62D169032B200394F7E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4D37C62F169032B200394F7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -148,6 +154,8 @@
 		4D37C61E169032B200394F7E = {
 			isa = PBXGroup;
 			children = (
+				4D1C6AE61691186400808B57 /* ColorSchemeIcon144x144.png */,
+				4D1C6AE41691169E00808B57 /* ColorSchemeIcon72x72.png */,
 				4D11EFA6169035F30075F10C /* ColorSchemeIcon114x114.png */,
 				4D11EFA4169035E90075F10C /* ColorSchemeIcon57x57.png */,
 				4D11EFA2169035CB0075F10C /* Default@2x.png */,
@@ -327,6 +335,10 @@
 				4DE215B11690B3A300CCB093 /* Default@2x.png in Resources */,
 				4DE215B21690B3AA00CCB093 /* Default-568h@2x.png in Resources */,
 				4DE215B71690B3DD00CCB093 /* Default.png in Resources */,
+				4D1C6AE216910BCE00808B57 /* ColorSchemeIcon57x57.png in Resources */,
+				4D1C6AE316910BD300808B57 /* ColorSchemeIcon114x114.png in Resources */,
+				4D1C6AE51691169E00808B57 /* ColorSchemeIcon72x72.png in Resources */,
+				4D1C6AE71691186400808B57 /* ColorSchemeIcon144x144.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +396,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -399,6 +412,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -413,6 +427,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -421,6 +436,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
